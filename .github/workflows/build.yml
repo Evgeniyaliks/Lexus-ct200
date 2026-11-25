@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unpack
-        run: unzip -o Lexus-ct200.zip -d src
+        run: unzip -o .github/workflows/Lexus-ct200.zip -d src
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
